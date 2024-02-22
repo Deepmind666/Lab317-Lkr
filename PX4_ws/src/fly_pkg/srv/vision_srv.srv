@@ -1,0 +1,8 @@
+float32[10] x
+float32[10] y
+float32[10] z
+float32[10] confidence 
+int8[10] kinds
+int8 number
+---
+int8 need_vision

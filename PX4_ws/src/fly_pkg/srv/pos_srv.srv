@@ -1,0 +1,40 @@
+float64 x
+float64 y
+float64 z
+
+float64 yaw
+float64 pitch
+float64 roll
+
+float64 pos_accuracy 
+float64 angle_accuracy 
+float64 angle_rate
+
+float64 x_kp
+float64 x_ki
+float64 x_kd
+float64 x_outputMax
+float64 x_outputMin
+
+
+float64 y_kp
+float64 y_ki
+float64 y_kd
+float64 y_outputMax
+float64 y_outputMin
+
+float64 z_kp
+float64 z_ki
+float64 z_kd
+float64 z_outputMax
+float64 z_outputMin
+
+float64 yaw_kp
+float64 yaw_ki
+float64 yaw_kd
+float64 yaw_outputMax
+float64 yaw_outputMin
+
+int8 control_flag
+---
+int8 arrive_flag

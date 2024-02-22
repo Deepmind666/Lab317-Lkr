@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="fly_pkg" type="get_light.py" name="get_light" output="screen" />
+    <node pkg="fly_pkg" type="t265.py" name="t265_node" output="screen"/>
+</launch>

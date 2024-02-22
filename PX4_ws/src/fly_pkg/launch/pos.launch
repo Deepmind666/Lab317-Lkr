@@ -1,0 +1,7 @@
+<launch>
+    <param name="Land_height"            value="0.15"            type="double" /> 
+    <param name="need_reset"             value="1"            type="int" /> 
+
+    <node pkg="fly_pkg" type="pos_task" name="pos_task" output="screen" >
+    </node>
+</launch>

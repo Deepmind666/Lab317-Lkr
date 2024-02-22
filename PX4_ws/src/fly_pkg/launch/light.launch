@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="fly_pkg" type="get_light.py" name="get_light" output="screen" />
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+    <include file="$(find vision_to_mavros)/launch/t265_all_nodes.launch"/>
+
+    <!-- This node will launch the node that bridges t265 and get_light -->
+    <include file="$(find fly_pkg)/launch/light.launch"/>
+
+    <include file="$(find fly_pkg)/launch/pos.launch"/>
+
+    <include file="$(find fly_pkg)/launch/main.launch"/>
+   
+</launch>
